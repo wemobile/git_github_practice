@@ -49,6 +49,16 @@ https://github.com/ 로 가서 계성 생성
 ## 9. git status 확인
     git status
 
+## 10. add와 commit 개념
+. Working Directore: 파일을 수정/추가하는 작업공간
+. index (Staging Area): commit 할 파일들을 준비하는 공간
+. HEAD: branch의 최신 commit을 가리키는 포인터
+
+### git add
+. Working Directory에서 변경된 파일을 Staging Area에 추가
+
+### git commit
+. 현재 상태의 버전을 github에 올림.
 
 
 

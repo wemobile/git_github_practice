@@ -23,11 +23,11 @@ https://git-scm.com/downloads/mac 에서 다운로드 및 인스톨
     git --version
 
 # 4. 로컬에서 github 계정 정보 등록
-* github 사용자이름
-
+github 사용자이름
+  
     git config --global user.name [Your Username]
 
-* github 등록 시 사용했던 e-mail
+github 등록 시 사용했던 e-mail
 
     git config --global user.email [your@email.com]
 
@@ -73,7 +73,8 @@ https://git-scm.com/downloads/mac 에서 다운로드 및 인스톨
 ## git commit
 * 설명과 함께 변경사항을 우선 저장(commit)
 
-    git commit -m "new readme file"
+'''bash
+git commit -m "new readme file"
 
 # 11. git log로 기록 확인
     git log

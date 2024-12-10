@@ -52,9 +52,9 @@ github 등록 시 사용했던 e-mail
 * 마크다운 방식으로 만듦. 자세한 네용은 마크다운 설명 참조 ( https://gist.github.com/ihoneymon/652be052a0727ad59601 )
 
 * 지금은 간단하게 테스트로 아래와 같이 한 줄만 작성한 파일 만듦
-
-    echo "# first-repository" >> readme.md
-
+```bash
+echo "# first-repository" >> readme.md
+```
 # 9. git status 확인
     git status
 
@@ -68,14 +68,15 @@ github 등록 시 사용했던 e-mail
 ## git add
 * Working Directory에서 변경된 파일을 Staging Area에 추가
 
-    git add readme.md
-
+```bash
+git add readme.md
+```
 ## git commit
 * 설명과 함께 변경사항을 우선 저장(commit)
 
-'''bash
+```bash
 git commit -m "new readme file"
-
+```
 # 11. git log로 기록 확인
     git log
 

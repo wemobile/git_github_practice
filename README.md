@@ -1,5 +1,6 @@
 # git와 github 실습
-실습을 위해서는 git이 설치된 로컬환경과 github 사이트에서 계정 등록 필요.
+실습을 위해서는 다음과 같이 git이 설치된 로컬환경과 github 사이트에서 계정 등록 필요.
+
 (이 글은 https://modulabs.co.kr/blog/git-and-github-for-beginners 를 참조했음)
 
 ## 1. git 설치 
@@ -21,11 +22,14 @@ https://github.com/ 로 가서 계정 생성
     git --version
 
 ## 4. 로컬에서 github 계정 정보 등록
-    git config --global user.name [Your Username]
 github 사용자이름
 
-    git config --global user.email [your@email.com]
+    git config --global user.name [Your Username]
+
 github 등록 시 사용했던 e-mail
+
+    git config --global user.email [your@email.com]
+
 
 ## 5.git 설정 정보 확인
     git config -l

@@ -39,6 +39,8 @@ github 등록 시 사용했던 e-mail
     mkdir workplace
     cd workplace
 
+* 이 부분에서 다양한 파일을 만들어서 다음의 내용처럼 github에 등록해야 하지만 여기에서는 readme.md 파일만 테스트로 만들어서 등록하는 것으로 합니다.
+
 # 7. git 초기화 및 확인
     git init
 (해당하는 디렉토리를 이제부터 git으로 관리할것이라는 의미. github에서 클론을 받은 경우에는 이 작업은 필요 없음)

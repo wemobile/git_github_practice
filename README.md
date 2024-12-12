@@ -46,7 +46,15 @@ github 등록 시 사용했던 e-mail
 (해당하는 디렉토리를 이제부터 git으로 관리할것이라는 의미. github에서 클론을 받은 경우에는 이 작업은 필요 없음)
 
 * .git 디렉토리가 생성됨
-(파일 폴더에서 보면 숨겨진 파일로서 안보일 경우가 있음)
+* 파일 폴더나 command(cmd) shell에서 보면 숨겨진 파일로서 안보일 경우가 있음(아래 보는 방법)
+* Windows 11 파일 폴더
+  
+![image](https://github.com/user-attachments/assets/ec92d5f7-e113-4f2e-b2d0-04c314da075d)
+
+* command(cmd) shell
+```
+    dir/a
+```
 
 # 8. github에 올리는 테스트로 readme.md (마크다운 형식의 파일) 생성
 * 현 디렉토리 내용을 설명하는 파일로서 자유롭게 작성할 수 있음. 이제부터 만들 레퍼지토리로 들어가면 홈페이지처럼 표시 됨.

@@ -31,11 +31,11 @@ github 등록 시 사용했던 e-mail
 
     git config --global user.email [anyone@email.com]
 
-* 위 명령어 사용 후 사용자명과 이메일은 아래 파일에 저장되면서 변경하기 전까지는 PC 전체에 영향을 미치게 됨('.'로 시작되는 디렉토리나 파일은 숨겨져 있으므로 보려면 아래 '7. git 초기화 및 확인' 참조).
-
-    C:\Users\AI09>type .gitconfig
+* 위 명령어 사용 후 사용자명과 이메일은 아래 파일에 저장되면서 변경하기 전까지는 PC 전체에 영향을 미치게 됨('.'로 시작되는 디렉토리나 파일은 숨겨져 있으므로 보려면 아래 'x. git 초기화 및 확인' 참조).
 
 <pre>
+C:\Users\AI09>type .gitconfig
+
 [user]
         name = [Username]   
         email = [anyone@email.com]

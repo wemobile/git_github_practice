@@ -123,7 +123,7 @@ git commit -m "new readme file"
 * [별칭]이 기억나지 않을 때 이미 만들어 놓은 [별칭] 찾아보기
 ```bash 
     git config -l
-'''
+```
 * 표시되는 내용 중 remote.[별칭].url=... 참조   
 
 ## 올리기(master 브랜치로)

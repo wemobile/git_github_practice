@@ -135,5 +135,7 @@ or
 ```git pull [별칭] master```   
 or   
 ```git pull [별칭] main```   
+### 내리기 참조
+![image](https://github.com/user-attachments/assets/afb6f828-9133-4e54-a36b-ac0e0ee40bca)
 
 # 끝

@@ -117,7 +117,7 @@ git commit -m "new readme file"
 
 # 13. 로컬 저장소와 원격 저장소 연결
     git remote add [별칭(English)] https://github.com/[your-username]/first-repository.git
-별칭을 임의의 단어로 쓰는데 이는 다음부터는 긴 URL 대신 간편하게 이 별칭을 사용하기 위함임. 새롭게 수정/추가 시에는 이것과 다른 단어의 별칭을 사용해야 함.
+별칭을 임의의 단어로 쓰는데 이는 다음부터는 긴 URL 대신 간편하게 이 별칭을 사용하기 위함임. 보통 'origin'을 많이 사용.
 
 # 14. 변경사항 올리기와 내리기   
 * [별칭]이 기억나지 않을 때 이미 만들어 놓은 [별칭] 찾아보기

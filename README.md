@@ -50,7 +50,7 @@ C:\Users\AI09>type .gitconfig
 
 * 이 부분에서 다양한 파일을 만들어서 다음의 내용처럼 github에 등록해야 하지만 여기에서는 readme.md 파일만 테스트로 만들어서 등록하는 것으로 합니다.
 
-# 7. git 초기화 및 확인
+# 7. git 초기화 및 확인: 'git clone [github link] 로 source를 가져올 경우 디렉토리를 만드는 것 이외에는 여기까지 건너뛸 수 있음
     git init
 (해당하는 디렉토리를 이제부터 git으로 관리할것이라는 의미. github에서 클론을 받은 경우에는 이 작업은 필요 없음)
 
@@ -70,7 +70,7 @@ C:\Users\AI09>type .gitconfig
 
 * 마크다운 방식으로 만듦. 자세한 네용은 마크다운 설명 참조 ( https://gist.github.com/ihoneymon/652be052a0727ad59601 )
 
-* 지금은 간단하게 테스트로 아래와 같이 한 줄만 작성한 파일 만듦
+* 지금은 간단하게 테스트로 아래와 같이 한 줄만 작성한 파일 만듦(이후 readme.md 파일이 있는 Github 사이트에서 직접 편집하면 편리)
 ```bash
 echo "# first-repository" >> readme.md
 ```

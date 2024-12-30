@@ -77,7 +77,7 @@ echo "# first-repository" >> readme.md
 # 9. git status 확인
     git status
 
-# 10. add와 commit 개념
+# 10. add와 commit 실행: 나의 로컬 PC에서 파일 변경이나 새로운 파일 추가 시 여기부터 실행
 * 용어 설명
 <pre>
     * Working Directore: 파일을 수정/추가하는 작업공간
@@ -100,7 +100,7 @@ git commit -m "new readme file"
 # 11. git log로 기록 확인
     git log
 
-# 12. 원격 저장소(repository) 생성하기
+# 12. 원격 저장소(repository) 생성하기: 처음 1회만 생성
 ## github 에 로그인 후 'your repository"로 이동
 
 ![image](https://github.com/user-attachments/assets/f5411f4c-d80f-4004-828a-3680180d731f)
@@ -120,10 +120,15 @@ git commit -m "new readme file"
 별칭을 임의의 단어로 쓰는데 이는 다음부터는 긴 URL 대신 간편하게 이 별칭을 사용하기 위함임. 새롭게 수정/추가 시에는 이것과 다른 단어의 별칭을 사용해야 함.
 
 # 14. 변경사항 올리기와 내리기
+<pre>
+    이미 만들어 놓은 [별칭] 찾아보기.   remote.[별칭].url=... 참조
+</pre>
+    git config -l
+
 ## 올리기(master 브랜치로)
     git push [별칭] master
 
-## 내리기(master 브랜치에서)
+## 내리기(master 브랜치에서): github 에서 변경된 파일 또는 타인이 다른 PC에서 변경/추가한 파일을 내 로컬 PC에 반영 시 여기부터 실행
     git pull [별칭] master
 
 # 끝

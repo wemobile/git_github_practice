@@ -35,9 +35,9 @@ github 등록 시 사용했던 e-mail
 
     C:\Users\AI09>type .gitconfig
 
-[user]
-        name = [Username]   
-        email = [anyone@email.com]
+###### [user]   
+######        name = [Username]   
+######        email = [anyone@email.com]
 
 # 5.git 설정 정보 확인: 그냥 확인만 해봄.
     git config -l

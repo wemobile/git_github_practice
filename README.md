@@ -119,18 +119,21 @@ git commit -m "new readme file"
     git remote add [별칭(English)] https://github.com/[your-username]/first-repository.git
 별칭을 임의의 단어로 쓰는데 이는 다음부터는 긴 URL 대신 간편하게 이 별칭을 사용하기 위함임. 새롭게 수정/추가 시에는 이것과 다른 단어의 별칭을 사용해야 함.
 
-# 14. 변경사항 올리기와 내리기
+# 14. 변경사항 올리기와 내리기   
+* [별칭]이 기억나지 않을 때 이미 만들어 놓은 [별칭] 찾아보기.   
 
-* 이미 만들어 놓은 [별칭] 찾아보기.   
-
-    git config -l
+```git config -l```
 
 * 표시되는 내용 중 remote.[별칭].url=... 참조   
 
 ## 올리기(master 브랜치로)
-    git push [별칭] master
+'''git push [별칭] master'''
+or
+'''git push [별칭] main'''
 
 ## 내리기(master 브랜치에서): github 에서 변경된 파일 또는 타인이 다른 PC에서 변경/추가한 파일을 내 로컬 PC에 반영 시 여기부터 실행
-    git pull [별칭] master
+```git pull [별칭] master```
+or
+```git pull [별칭] main```
 
 # 끝

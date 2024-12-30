@@ -19,20 +19,27 @@ https://git-scm.com/downloads/mac 에서 다운로드 및 인스톨
 * https://github.com/ 로 가서 계정 생성 
 
 
-# 3. git 버전 확인
+# 3. git 버전 확인: 그냥 확인만 해 봄.
     git --version
 
 # 4. 로컬에서 github 계정 정보 등록
 github 사용자이름
   
-    git config --global user.name [Your Username]
+    git config --global user.name [Username]
 
 github 등록 시 사용했던 e-mail
 
-    git config --global user.email [your@email.com]
+    git config --global user.email [anyone@email.com]
 
+* 위 명령어 사용 후 정보는 아래 파일에 저장되면서 변경하기 전까지는 PC 전체에 영향을 미치게 됨.
 
-# 5.git 설정 정보 확인
+    C:\Users\AI09>type .gitconfig
+
+[user]
+        name = [Username]
+        email = [anyone@email.com]
+
+# 5.git 설정 정보 확인: 그냥 확인만 해봄.
     git config -l
 
 # 6. 로컬 저장소 생성

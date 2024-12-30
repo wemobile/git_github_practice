@@ -55,8 +55,8 @@ github 등록 시 사용했던 e-mail
 (해당하는 디렉토리를 이제부터 git으로 관리할것이라는 의미. github에서 클론을 받은 경우에는 이 작업은 필요 없음)
 
 * .git 디렉토리가 생성됨
-* 파일 폴더나 command(cmd) shell에서 보면 숨겨진 파일로서 안보일 경우가 있음(아래 보는 방법)
-* Windows 11 파일 폴더
+* 파일 폴더나 command(cmd) shell에서 보면 숨겨진 디렉토리('.'으로 시작되는 이름)로서 안보일 경우가 있음(아래 보는 방법)
+* 숨겨진 '디렉토리' 보는 방법: Windows 11 파일 폴더(그러나 '.'으로 시작하는 숨겨진 '파일'은 보이지 않음. 아래 cmd에서 확인 필요)
   
 ![image](https://github.com/user-attachments/assets/ec92d5f7-e113-4f2e-b2d0-04c314da075d)
 

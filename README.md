@@ -127,13 +127,13 @@ git commit -m "new readme file"
 * 표시되는 내용 중 remote.[별칭].url=... 참조   
 
 ## 올리기(master 브랜치로)
-'''git push [별칭] master'''
-or
-'''git push [별칭] main'''
+```git push [별칭] master```   
+or   
+```git push [별칭] main```   
 
 ## 내리기(master 브랜치에서): github 에서 변경된 파일 또는 타인이 다른 PC에서 변경/추가한 파일을 내 로컬 PC에 반영 시 여기부터 실행
-```git pull [별칭] master```
-or
-```git pull [별칭] main```
+```git pull [별칭] master```   
+or   
+```git pull [별칭] main```   
 
 # 끝
